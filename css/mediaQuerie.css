@@ -6,13 +6,13 @@
     padding-top: 50px;
     gap: 50px;
   }
-  .header__title {
+  .text__title {
     width: 80%;
     font-size: 28px;
     line-height: 110%;
     text-align: center;
   }
-  .header__description {
+  .text__description {
     width: 80%;
     font-size: 16px;
   }

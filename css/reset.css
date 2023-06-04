@@ -11,6 +11,7 @@ body {
   min-height: 10vh;
   display: flex;
   align-items: center;
+  flex-direction: column;
 }
 
 :root {

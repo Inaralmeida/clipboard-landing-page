@@ -3,24 +3,25 @@ header {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 50vh;
   flex-direction: column;
+  padding-top: 150px;
 
   background-image: url(../images/bg-header-desktop.png);
   background-position: top;
   background-repeat: no-repeat;
   background-size: contain;
 
-  gap: 20px;
+  gap: 30px;
+  margin-bottom: 50px;
 }
 
-.header__title {
+.text__title {
   font-size: 36px;
   line-height: 160%;
   color: var(--dark-gray);
 }
 
-.header__description {
+.text__description {
   width: 700px;
   text-align: center;
   line-height: 180%;
@@ -48,7 +49,6 @@ header {
   box-shadow: 2px 2px 0px var(--border-azul);
   transition: all 0.2s;
   font-size: 18px;
-
 }
 
 .container__btns button:nth-child(1) {
@@ -58,4 +58,21 @@ header {
 
 .container__btns button:hover {
   opacity: 0.8;
+}
+
+main {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.main__first-section{
+  margin: 80px 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  gap: 20px
 }
