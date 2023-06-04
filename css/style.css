@@ -92,6 +92,7 @@ main {
 }
 
 .desktop__image img {
+  max-width: 800px;
   width: 100%;
 }
 
@@ -113,7 +114,12 @@ main {
   flex-direction: column;
   gap: 12px;
 }
-
+.vertical {
+  align-items: flex-start;
+}
+.vertical > p {
+  text-align: left;
+}
 .text__subtitle {
   font-size: 22px;
   font-weight: 600;

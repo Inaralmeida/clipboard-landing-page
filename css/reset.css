@@ -22,3 +22,7 @@ body {
   --dark-gray: hsl(210, 10%, 33%);
   --gray: hsl(201, 11%, 66%);
 }
+
+li{
+  list-style: none;
+}

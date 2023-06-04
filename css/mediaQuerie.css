@@ -36,7 +36,9 @@
     gap: 80px;
   }
 
-  .list__item {
+  .list__item,
+  .horizontal,
+  .list__item > p {
     align-items: center;
     text-align: center;
   }
