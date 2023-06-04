@@ -18,7 +18,7 @@ export const text = [
   'Recupere todos os trechos desde o primeiro momento em que você começou a usar o aplicativo.', //descricao
 
   //section dois
-  'Acesso Área de transferência em qualquer lugar', //titulo
+  'Acesso ao Clipboard em qualquer lugar', //titulo
   'Esteja você em trânsito ou em seu computador, você pode acessar todos os seus texto do Clipboard com apenas alguns cliques.', //descrição
 
   //section tres
