@@ -109,24 +109,25 @@ main {
   max-width: 400px;
   list-style: none;
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   flex-direction: column;
   gap: 12px;
 }
 
-.text__subtitle{
+.text__subtitle {
   font-size: 22px;
   font-weight: 600;
   color: var(--dark-gray);
 }
 
-.text__small{
+.text__small {
   font-size: 14px;
   font-weight: 300;
   color: var(--gray);
+  text-align: center;
 }
 
-.main__devices-section{
+.main__devices-section {
   width: 100%;
   padding: 50px 0;
   display: flex;
@@ -135,11 +136,44 @@ main {
   gap: 20px;
 }
 
-.devices__img{
+.devices__img {
   width: 70%;
   padding: 50px 0;
 }
 
-.devices__img > img{
+.devices__img > img {
   width: 100%;
+}
+
+.main__options-section {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.options__text{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap:20px;
+  margin-bottom: 30px;
+}
+
+.options__list-skills, .option__list-parceiros{
+  width: 100%;
+  display: flex;
+  align-items: baseline;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap:20px;
+  margin-bottom: 100px;
+}
+
+.item__img{
+  padding: 20px;
+  width: 150px;
+  list-style: none;
 }
