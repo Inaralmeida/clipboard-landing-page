@@ -47,8 +47,21 @@
     gap: 30px;
     padding: 0px 10px;
   }
-  .item__img{
+  .item__img {
     width: 100%;
     text-align: center;
+  }
+
+  footer {
+    flex-direction: column;
+    padding: 30px 10px;
+    height: auto;
+    gap: 30px;
+  }
+
+  .footer__list {
+    flex-wrap: nowrap;
+    height: auto;
+    align-items: center;
   }
 }
