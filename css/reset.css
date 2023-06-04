@@ -1,0 +1,23 @@
+*,
+button {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Bai Jamjuree', sans-serif;
+}
+
+body {
+  width: 100%;
+  min-height: 10vh;
+  display: flex;
+  align-items: center;
+}
+
+:root {
+  --verde: hsl(171, 66%, 44%);
+  --border-verde: #1ca08c;
+  --azul: hsl(233, 100%, 69%);
+  --border-azul: #4554c7;
+  --dark-gray: hsl(210, 10%, 33%);
+  --gray: hsl(201, 11%, 66%);
+}
